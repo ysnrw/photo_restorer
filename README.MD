@@ -76,7 +76,7 @@ Semua ini diorkestrasi oleh kelas `AIPipelineWorker` yang berjalan di *thread* t
 ## Lisensi & Kredit
 
 Proyek perangkat lunak ini dibuat oleh **Yusuf Nurwahid**. 
-Model dan arsitektur AI yang digunakan dalam *pipeline* ini adalah milik *researcher* dan pengembang aslinya:
+Model dan arsitektur yang digunakan dalam *pipeline* ini adalah milik *researcher* dan pengembang aslinya:
 
 - **[CodeFormer](https://github.com/sczhou/CodeFormer)** oleh Shangchen Zhou dkk.
 - **[SwinIR](https://github.com/JingyunLiang/SwinIR)** oleh Jingyun Liang dkk.
