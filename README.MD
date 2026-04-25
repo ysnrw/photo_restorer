@@ -5,7 +5,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-AI_Engine-EE4C2C?logo=pytorch&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-Aplikasi desktop berbasis AI yang dirancang untuk merestorasi, mewarnai, dan meningkatkan resolusi (upscale) foto lawas/rusak secara otomatis. Dibangun menggunakan arsitektur **Pemrograman Berbasis Objek (PBO)** yang mengintegrasikan tiga model *Machine Learning* State-of-the-Art ke dalam satu *pipeline* yang efisien.
+Aplikasi desktop yang dirancang untuk merestorasi, mewarnai, dan meningkatkan resolusi (upscale) foto lawas/rusak secara otomatis. Dibangun menggunakan arsitektur **Pemrograman Berbasis Objek (PBO)** yang mengintegrasikan tiga model *Machine Learning* State-of-the-Art ke dalam satu *pipeline* yang efisien.
 
 Proyek ini dikembangkan untuk memenuhi tugas Ujian Tengah Semester (UTS) mata kuliah Pemrograman Berbasis Objek (PBO) di program studi Teknik Informatika, Universitas Cendekia Abditama (UCA).
 
@@ -40,7 +40,7 @@ Proyek ini dikembangkan untuk memenuhi tugas Ujian Tengah Semester (UTS) mata ku
 
 ## Cara Instalasi & Menjalankan (One-Click Setup)
 
-Proyek ini sudah dilengkapi dengan *script* instalasi otomatis untuk pengguna OS Windows. Anda tidak perlu mengunduh model AI secara manual.
+Proyek ini sudah dilengkapi dengan *script* instalasi otomatis untuk pengguna OS Windows. Anda tidak perlu mengunduh model secara manual.
 
 1. **Clone [repositori ini](https://github.com/ysnrw/photo_restorer):**
    ```bash
@@ -61,7 +61,7 @@ Proyek ini sudah dilengkapi dengan *script* instalasi otomatis untuk pengguna OS
 
 ---
 
-## Arsitektur Pipeline AI
+## Arsitektur Pipeline
 
 Aplikasi ini menggunakan konsep *Wrapper Pattern* dalam PBO untuk membungkus model-model yang kompleks ke dalam modul yang mudah dikontrol. Alur kerjanya adalah sebagai berikut:
 
