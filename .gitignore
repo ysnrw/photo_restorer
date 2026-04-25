@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+result_image/
+engine/models/
+engine/external/
+result_image/
+results_image/
+.DS_Store
+Thumbs.db
+.vscode/

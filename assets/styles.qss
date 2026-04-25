@@ -1,0 +1,105 @@
+QMainWindow {
+    background-color: #0f172a;
+}
+
+QWidget {
+    color: #f8fafc;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+}
+
+QLabel#statusLabel {
+    font-size: 26px;
+    font-weight: 800;
+    color: #38bdf8; /* Sky 400 */
+    letter-spacing: 1px;
+}
+
+QLabel#previewTitle {
+    font-size: 32px;
+    font-weight: 900;
+    color: #f8fafc;
+    margin-bottom: 10px;
+}
+
+QLabel#previewImageContainer {
+    background-color: #1e293b; /* Slate 800 */
+    border: 2px dashed #475569; /* Slate 600 */
+    border-radius: 16px;
+    padding: 10px;
+}
+
+QProgressBar {
+    background-color: #1e293b; /* Slate 800 */
+    border: 1px solid #334155; /* Slate 700 */
+    border-radius: 14px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QProgressBar::chunk {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, 
+                                      stop:0 #3b82f6, stop:1 #6366f1);
+    border-radius: 13px;
+}
+
+QPushButton {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 14px 28px;
+    border: none;
+    outline: none;
+}
+
+QPushButton:pressed {
+    margin-top: 2px;
+    margin-bottom: -2px;
+}
+
+QPushButton#btnEnhance {
+    background-color: #3b82f6; /* Blue 500 */
+    color: white;
+}
+QPushButton#btnEnhance:hover {
+    background-color: #2563eb; /* Blue 600 */
+}
+
+QPushButton#btnSave {
+    background-color: #10b981; /* Emerald 500 */
+    color: white;
+}
+QPushButton#btnSave:hover {
+    background-color: #059669; /* Emerald 600 */
+}
+
+QPushButton#btnBack {
+    background-color: #334155; /* Slate 700 */
+    color: white;
+}
+QPushButton#btnBack:hover {
+    background-color: #475569; /* Slate 600 */
+}
+
+QPushButton#btnCancel {
+    background-color: #ef4444; /* Red 500 */
+    color: white;
+}
+QPushButton#btnCancel:hover {
+    background-color: #dc2626; /* Red 600 */
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #0f172a;
+    width: 10px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical {
+    background: #475569;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #64748b;
+}
