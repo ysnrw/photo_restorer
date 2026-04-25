@@ -24,15 +24,15 @@ Proyek ini dikembangkan untuk memenuhi tugas Ujian Tengah Semester (UTS) mata ku
 
 ## Preview Aplikasi
 
-![Tampilan Aplikasi](assets/screenshot-1.jpg)
+![Tampilan Aplikasi](assets/screenshot1.jpg)
 
 *Tampilan antarmuka dengan fitur Drag n Drop File*
 
-![Tampilan Aplikasi](assets/screenshot-2.jpg)
+![Tampilan Aplikasi](assets/screenshot2.jpg)
 
 *Tampilan antarmuka dengan fitur Preview*
 
-![Tampilan Aplikasi](assets/screenshot-3.jpg)
+![Tampilan Aplikasi](assets/screenshot3.jpg)
 
 *Tampilan antarmuka dengan fitur komparasi Before-After*
 
